@@ -1,10 +1,7 @@
-/* eslint-disable react/prop-types */
-/* eslint-disable react-refresh/only-export-components */
 import { useCallback } from "react";
 import { createContext, useEffect, useContext, useReducer } from "react";
 const BASE_URL = "http://localhost:9000";
 const CitiesContext = createContext();
-// eslint-disable-next-line react/prop-types
 const initialState = {
   cities: [],
   isLoading: false,
@@ -51,7 +48,7 @@ function reducer(state, action) {
         error: action.payload,
       };
     default:
-      throw new Error("sl;ks;f;sf;");
+      throw new Error("Error Fetch ");
   }
 }
 
@@ -68,7 +65,7 @@ function CitiesProvider({ children }) {
         const data = await res.json();
         dispatch({ type: "cities/loading", payload: data });
       } catch {
-        dispatch({ type: "rejected", payload: "aasasasaas" });
+        dispatch({ type: "rejected", payload: "failed to fetch cities" });
       }
     }
     fetchCities();
@@ -82,7 +79,7 @@ function CitiesProvider({ children }) {
         const data = await res.json();
         dispatch({ type: "city/loaded", payload: data });
       } catch {
-        dispatch({ type: "rejected", payload: "aasasasaas" });
+        dispatch({ type: "rejected", payload: "failed to fetch city" });
       }
     },
     [currentCity.id]
@@ -101,7 +98,7 @@ function CitiesProvider({ children }) {
       dispatch({ type: "city/Create", payload: data });
       console.log(data);
     } catch {
-      dispatch({ type: "rejected", payload: "aasasasaas" });
+      dispatch({ type: "rejected", payload: "failed to fetch Create city" });
     }
   }
   async function deleteCity(id) {
@@ -112,7 +109,7 @@ function CitiesProvider({ children }) {
       });
       dispatch({ type: "city/delete", payload: id });
     } catch {
-      dispatch({ type: "rejected", payload: "aasasasaas" });
+      dispatch({ type: "rejected", payload: "failed to Delete city" });
     }
   }
   return (

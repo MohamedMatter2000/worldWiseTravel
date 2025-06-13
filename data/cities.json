@@ -1,0 +1,64 @@
+{
+  "cities": [
+    {
+      "cityName": "Lisbon",
+      "country": "Portugal",
+      "emoji": "🇵🇹",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "My favorite city so far!",
+      "position": {
+        "lat": 38.727881642324164,
+        "lng": -9.140900099907554
+      },
+      "id": "73930385"
+    },
+    {
+      "cityName": "Berlin",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "date": "2027-02-12T09:24:11.863Z",
+      "notes": "Amazing 😃",
+      "position": {
+        "lat": 52.53586782505711,
+        "lng": 13.376933665713324
+      },
+      "id": "98443197"
+    },
+    {
+      "id": "5d46",
+      "cityName": "Coimbra",
+      "country": "Portugal",
+      "date": "2024-11-16T19:51:04.825Z",
+      "emoji": "🇵🇹",
+      "notes": "",
+      "position": {
+        "lat": "40.245991504199026",
+        "lng": "-8.437500000000002"
+      }
+    },
+    {
+      "id": "18cc",
+      "cityName": "Algiers",
+      "country": "Algeria",
+      "date": "2025-06-13T18:44:57.077Z",
+      "emoji": "🇩🇿",
+      "notes": "",
+      "position": {
+        "lat": "36.65079252503471",
+        "lng": "3.1860351562500004"
+      }
+    },
+    {
+      "id": "04c6",
+      "cityName": "Amman",
+      "country": "Jordan",
+      "date": "2025-06-13T18:46:16.412Z",
+      "emoji": "🇯🇴",
+      "notes": "",
+      "position": {
+        "lat": "31.93817848559113",
+        "lng": "35.94177246093751"
+      }
+    }
+  ]
+}

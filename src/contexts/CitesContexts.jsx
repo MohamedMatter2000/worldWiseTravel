@@ -1,3 +1,5 @@
+/* eslint-disable react/prop-types */
+/* eslint-disable react-refresh/only-export-components */
 import { useCallback } from "react";
 import { createContext, useEffect, useContext, useReducer } from "react";
 const BASE_URL = "http://localhost:9000";

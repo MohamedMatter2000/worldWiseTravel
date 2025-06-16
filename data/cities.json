@@ -37,15 +37,15 @@
       }
     },
     {
-      "id": "18cc",
-      "cityName": "Algiers",
-      "country": "Algeria",
-      "date": "2025-06-13T18:44:57.077Z",
-      "emoji": "🇩🇿",
-      "notes": "",
+      "id": "a2fb",
+      "cityName": "Rivas-Vaciamadrid",
+      "country": "Spain",
+      "date": "2025-06-16T13:03:50.607Z",
+      "emoji": "🇪🇸",
+      "notes": "test",
       "position": {
-        "lat": "36.65079252503471",
-        "lng": "3.1860351562500004"
+        "lat": "40.396764305572056",
+        "lng": "-3.5156250000000004"
       }
     }
   ]

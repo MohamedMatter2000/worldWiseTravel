@@ -19,6 +19,7 @@
   #  publish = "dist" # Folder with the static content for _redirect file
 
   ## more info on configuring this file: https://ntl.fyi/file-based-build-config
-command = "npm run build"
-  functions = "netlify/functions"
-  publish = "dist"
+  [[redirects]]
+    from = "/*"
+    to = "/index.html"
+    status = 200

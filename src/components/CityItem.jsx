@@ -2,7 +2,7 @@
 /* eslint-disable react/prop-types */
 import { Link } from "react-router-dom";
 import { useCities } from "../contexts/CitesContexts";
-import styles from "./Cityitem.module.css";
+import styles from "./CityItem.module.css";
 const formatDate = (date) =>
   new Intl.DateTimeFormat("en", {
     day: "numeric",

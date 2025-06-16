@@ -15,7 +15,7 @@ import Button from "./Button";
 import { useCities } from "../contexts/CitesContexts";
 import { useEffect } from "react";
 import useGeolocation from "../hook/useGeolocation";
-import { useUrlpositon } from "../hook/useUrlposition";
+import { useUrlpositon } from "../hook/useUrlPosition";
 export default function Map() {
   const navigate = useNavigate();
   const [mapPosition, setmapPosition] = useState([40, 0]);

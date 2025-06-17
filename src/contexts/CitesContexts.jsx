@@ -2,7 +2,8 @@
 /* eslint-disable react-refresh/only-export-components */
 import { useCallback } from "react";
 import { createContext, useEffect, useContext, useReducer } from "react";
-const BASE_URL = "http://localhost:9000";
+const BASE_URL = "https://685065cae7c42cfd17988f16.mockapi.io/api/cities";
+// const BASE_URL = "http://localhost:9000";
 const CitiesContext = createContext();
 const initialState = {
   cities: [],
